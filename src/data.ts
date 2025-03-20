@@ -7,7 +7,7 @@ export const projects: Project[] = [
   {
     id: 1,
     title: "Spectorn",
-    description: "A smart wearable device for visually impaired individuals using LiDAR sensors, AI-based object detection, and haptic feedback.",
+    description: " smart wearable device for visually impaired individuals using LiDAR sensors, AI-based object detection, and haptic feedback.",
     // Option 1: External URL approach
     image: "src/assets/pfp.png",
     // Option 2: Local file approach
