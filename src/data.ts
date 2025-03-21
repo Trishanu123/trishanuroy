@@ -9,7 +9,8 @@ export const projects: Project[] = [
     title: "Hasthavani",
     description: "A sign language to speech conversion system using machine learning and embedded systems.",
     // Option 1: External URL approach
-    image: "/assets/hasthavani.png",
+    
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581998/hasthavani_dhayzd.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/hasthavani.jpg'),
     technologies: ["Flex Sensors", "MPU6050", "Machine Learning", "Embedded Systems", "3D printing", "EDA", "C++", "Microcontrollers", "Micropython", "Python", "Aurduino IDE"],
@@ -27,7 +28,7 @@ export const projects: Project[] = [
     title: "Spectorn",
     description: " smart wearable device for visually impaired individuals using LiDAR sensors, AI-based object detection, and haptic feedback.",
     // Option 1: External URL approach
-    image: "assets/spectron.jpeg",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581997/spectron_fqdq5g.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/spectorn.jpg'),
     technologies: ["LiDAR", "AI", "Haptic Feedback", "Embedded Systems"],
@@ -43,7 +44,7 @@ export const projects: Project[] = [
     title: "Auto Focus",
     description: "An AI-powered browser designed for productivity by blocking distractions. Won 2nd place at a National-Level Hackathon.",
     // Option 1: External URL approach
-    image: "../assets/auto focus.png",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581996/auto_focus_awaegn.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/auto-focus.jpg'),
     technologies: ["AI", "Browser Extension", "JavaScript"],
@@ -59,7 +60,7 @@ export const projects: Project[] = [
     title: "RC Aeroplane",
     description: "A high-speed RC aeroplane (100 km/h), developed with precision aerodynamics and lightweight materials.",
     // Option 1: External URL approach
-    image: "src/assets/rc.jpeg",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581996/rc_chi5qx.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/rc-aeroplane.jpg'),
     technologies: ["Aerodynamics", "Electronics", "Lightweight Materials"],
@@ -75,7 +76,7 @@ export const projects: Project[] = [
     title: "LED Matrix",
     description: "A programmable LED display system for animations, real-time text, and interactive visuals.",
     // Option 1: External URL approach
-    image: "src/assets/matrix.jpeg",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581996/matrix_wti21d.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/led-matrix.jpg'),
     technologies: ["LED Programming", "Microcontrollers", "Animation"],
@@ -91,7 +92,7 @@ export const projects: Project[] = [
     title: "Distance Gauge Meter",
     description: "A portable ultrasonic sensor-based tool for precise distance measurement.",
     // Option 1: External URL approach
-    image: "src/assets/dist.png",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581997/dist_swcddh.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/distance-gauge.jpg'),
     technologies: ["Ultrasonic Sensors", "Arduino", "Electronics"],
@@ -107,7 +108,7 @@ export const projects: Project[] = [
     title: "Fully Autonomous RC Car",
     description: "An AI-powered self-driving RC car with obstacle detection and path planning.",
     // Option 1: External URL approach
-    image: "src/assets/autonomous.jpeg",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581996/autonomous_agdfvo.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/autonomous-rc-car.jpg'),
     technologies: ["AI", "Computer Vision", "Robotics"],
@@ -123,7 +124,7 @@ export const projects: Project[] = [
     title: "Anti-Theft System",
     description: "A home security system with door alarms and real-time cloud notifications using ESP32.",
     // Option 1: External URL approach
-    image: "src/assets/theft.png",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581994/theft_bgpitx.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/anti-theft.jpg'),
     technologies: ["ESP32", "IoT", "Cloud Computing"],
@@ -139,7 +140,7 @@ export const projects: Project[] = [
     title: "Home Automation System",
     description: "IoT-based smart home system for remote appliance control via MQTT and ESP32.",
     // Option 1: External URL approach
-    image: "src/assets/automation.png",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581995/automation_mif3rh.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/home-automation.jpg'),
     technologies: ["IoT", "MQTT", "ESP32"],
@@ -155,7 +156,7 @@ export const projects: Project[] = [
     title: "UAV Radar System",
     description: "A drone-based radar for terrain mapping, object detection, and reconnaissance.",
     // Option 1: External URL approach
-    image: "src/assets/radar.png",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581994/radar_hlbkcn.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/uav-radar.jpg'),
     technologies: ["Radar", "UAV", "Signal Processing"],
@@ -187,7 +188,7 @@ export const projects: Project[] = [
     title: "Emotion Detection AI Model",
     description: "An AI model detecting facial emotions using deep learning techniques.",
     // Option 1: External URL approach
-    image: "src/assets/Emotion Detection Fig 2.png",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581995/Emotion_Detection_Fig_2_s3hlzd.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/emotion-detection.jpg'),
     technologies: ["Deep Learning", "Computer Vision", "Python"],
@@ -203,7 +204,7 @@ export const projects: Project[] = [
     title: "FPV Drone",
     description: "A first-person-view drone for high-speed racing and aerial exploration.",
     // Option 1: External URL approach
-    image: "src/assets/fpv.jpeg",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581995/fpv_n2qbgv.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/fpv-drone.jpg'),
     technologies: ["FPV Systems", "Drone Technology", "Electronics"],
@@ -219,7 +220,7 @@ export const projects: Project[] = [
     title: "Bench Power Supply",
     description: "A custom variable power supply unit for electronics prototyping.",
     // Option 1: External URL approach
-    image: "src/assets/bench power supply.jpeg",
+    image: "https://res.cloudinary.com/dhvtvqbnn/image/upload/v1742581994/bench_power_supply_ucsuxs.jpg",
     // Option 2: Local file approach
     // image: require('../assets/projects/power-supply.jpg'),
     technologies: ["Electronics", "Power Systems", "PCB Design"],
