@@ -43,7 +43,7 @@ export const projects: Project[] = [
     title: "Auto Focus",
     description: "An AI-powered browser designed for productivity by blocking distractions. Won 2nd place at a National-Level Hackathon.",
     // Option 1: External URL approach
-    image: "src/assets/auto focus.png",
+    image: "../assets/auto focus.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/auto-focus.jpg'),
     technologies: ["AI", "Browser Extension", "JavaScript"],
