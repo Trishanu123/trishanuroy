@@ -30,11 +30,11 @@ const Projects = () => {
               transition={{ delay: index * 0.1 }}
               className="bg-gray-800 rounded-lg overflow-hidden hover:transform hover:scale-105 transition-transform duration-300"
             >
-              <div className="relative h-64">
+              <div className="relative w-full h-64 flex justify-center items-center bg-black">
                 <img
                   src={getImageSrc(project.image)}
                   alt={project.title}
-                  className="w-full h-full object-cover"
+                  className="max-w-full max-h-full object-contain"
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition-opacity">
                   <div className="flex space-x-4">
