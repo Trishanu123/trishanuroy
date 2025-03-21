@@ -27,7 +27,7 @@ export const projects: Project[] = [
     title: "Spectorn",
     description: " smart wearable device for visually impaired individuals using LiDAR sensors, AI-based object detection, and haptic feedback.",
     // Option 1: External URL approach
-    image: "src/assets/spectron.jpeg",
+    image: "assets/spectron.jpeg",
     // Option 2: Local file approach
     // image: require('../assets/projects/spectorn.jpg'),
     technologies: ["LiDAR", "AI", "Haptic Feedback", "Embedded Systems"],
