@@ -32,7 +32,7 @@ function App() {
         <div className="relative z-10">
           <Suspense fallback={<LoadingSpinner />}>
             <Routes>
-              <Route path="/" element={<Home />} />
+              <Route path="/trishanuroy" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/cv" element={<CV />} />
