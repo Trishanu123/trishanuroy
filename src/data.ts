@@ -9,7 +9,7 @@ export const projects: Project[] = [
     title: "Hasthavani",
     description: "A sign language to speech conversion system using machine learning and embedded systems.",
     // Option 1: External URL approach
-    image: "src/assets/hasthavani.png",
+    image: "/assets/hasthavani.png",
     // Option 2: Local file approach
     // image: require('../assets/projects/hasthavani.jpg'),
     technologies: ["Flex Sensors", "MPU6050", "Machine Learning", "Embedded Systems", "3D printing", "EDA", "C++", "Microcontrollers", "Micropython", "Python", "Aurduino IDE"],
