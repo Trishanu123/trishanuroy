@@ -22,6 +22,7 @@ export const projects: Project[] = [
     
   },
   {
+  
     id: 2,
     title: "Spectorn",
     description: " smart wearable device for visually impaired individuals using LiDAR sensors, AI-based object detection, and haptic feedback.",

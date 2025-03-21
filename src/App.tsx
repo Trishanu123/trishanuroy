@@ -1,5 +1,5 @@
 import React, { Suspense, useEffect } from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import StarsCanvas from './components/StarsCanvas';
 import emailjs from '@emailjs/browser';
@@ -25,7 +25,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/trishanuroy">
+    <Router>
       <div className="relative z-0">
         <StarsCanvas />
         <Navbar />
